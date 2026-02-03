@@ -5,7 +5,7 @@ type AppRoutes = "/" | "/dashboard" | "/forgot-password" | "/register" | "/reset
 type AppRouteHandlerRoutes = "/api/ask" | "/api/auth/forgot-password" | "/api/auth/login" | "/api/auth/logout" | "/api/auth/register" | "/api/auth/reset-password" | "/api/notes" | "/api/notes/[id]" | "/api/trips" | "/api/trips/[id]"
 type PageRoutes = never
 type LayoutRoutes = "/" | "/dashboard"
-type RedirectRoutes = "/login"
+type RedirectRoutes = never
 type RewriteRoutes = never
 type Routes = AppRoutes | PageRoutes | LayoutRoutes | RedirectRoutes | RewriteRoutes | AppRouteHandlerRoutes
 
@@ -24,7 +24,6 @@ interface ParamMap {
   "/api/trips/[id]": { "id": string; }
   "/dashboard": {}
   "/forgot-password": {}
-  "/login": {}
   "/register": {}
   "/reset-password": {}
 }

@@ -12,12 +12,6 @@
       "priority": true,
       "statusCode": 308,
       "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
-    },
-    {
-      "source": "/login",
-      "destination": "/",
-      "statusCode": 308,
-      "regex": "^(?!/_next)/login(?:/)?$"
     }
   ],
   "headers": [],

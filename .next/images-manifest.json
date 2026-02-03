@@ -27,10 +27,10 @@
     "disableStaticImages": false,
     "minimumCacheTTL": 14400,
     "formats": [
-      "image/avif",
       "image/webp"
     ],
     "maximumRedirects": 3,
+    "maximumResponseBody": 50000000,
     "dangerouslyAllowLocalIP": false,
     "dangerouslyAllowSVG": false,
     "contentSecurityPolicy": "script-src 'none'; frame-src 'none'; sandbox;",

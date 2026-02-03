@@ -1,5 +1,6 @@
 import { redirect } from "next/navigation";
 import { cookies } from "next/headers";
+import { OnboardingPreloader } from "@/components/onboarding/OnboardingPreloader";
 
 export default async function DashboardLayout({
     children,
@@ -16,6 +17,7 @@ export default async function DashboardLayout({
 
     return (
         <>
+            <OnboardingPreloader />
             {children}
         </>
     );
