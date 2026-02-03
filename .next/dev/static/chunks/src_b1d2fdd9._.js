@@ -51,7 +51,10 @@ __turbopack_context__.s([
 const tripService = {
     async getTrips (userId) {
         const res = await fetch(`/api/trips?userId=${userId}`);
-        if (!res.ok) throw new Error('Failed to fetch trips');
+        if (!res.ok) {
+            const errorData = await res.json().catch(()=>({}));
+            throw new Error(`Failed to fetch trips: ${res.status} ${res.statusText} - ${errorData.message || ''}`);
+        }
         const data = await res.json();
         return data.trips;
     },
@@ -1643,7 +1646,7 @@ const WelcomeStep = ({ onComplete, onNext })=>/*#__PURE__*/ (0, __TURBOPACK__imp
                 className: "flex justify-start md:justify-center gap-6 mb-8 overflow-x-auto py-2 px-4 scrollbar-hide",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex-1 min-w-[400px] relative group",
+                        className: "flex-1 min-w-[300px] max-w-[500px] relative group transition-transform hover:scale-[1.02]",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "relative rounded-xl border border-white/10 max-w-6xl bg-black/50 shadow-2xl overflow-hidden",
                             children: [
@@ -1703,7 +1706,7 @@ const WelcomeStep = ({ onComplete, onNext })=>/*#__PURE__*/ (0, __TURBOPACK__imp
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex-1 min-w-[400px] relative group",
+                        className: "flex-1 min-w-[300px] max-w-[500px] relative group transition-transform hover:scale-[1.02]",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "relative rounded-xl border border-white/10 bg-black/50 shadow-2xl overflow-hidden",
                             children: [

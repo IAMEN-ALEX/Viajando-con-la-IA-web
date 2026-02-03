@@ -36,9 +36,17 @@ export async function GET(req: Request) {
         }));
 
         return NextResponse.json({ trips: formattedTrips });
-    } catch (error) {
-        console.error('Fetch trips error:', error);
-        return NextResponse.json({ message: 'Error al obtener viajes' }, { status: 500 });
+    } catch (error: any) {
+        console.error('[API_ERROR] Fetch trips failed:', {
+            message: error.message,
+            code: error.code,
+            meta: error.meta,
+            stack: error.stack
+        });
+        return NextResponse.json(
+            { message: 'Error al obtener viajes', detail: error.message },
+            { status: 500 }
+        );
     }
 }
 

@@ -1,4 +1,69 @@
-[00:00:01.478] Server  WARN    ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
-[00:00:01.524] Server  ERROR   Unhandled Rejection: Error: Both middleware file "./src\middleware.ts" and proxy file "./src\proxy.ts" are detected. Please use "./src\proxy.ts" only. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
-[00:03:00.851] Server  LOG     ✓ Ready in 180.4s
-[00:03:00.886] Server  LOG     ✓ Compiled in 599ms
+[00:00:01.718] Server  LOG     ✓ Ready in 1262ms
+[00:00:14.944] Server  LOG     ○ Compiling /dashboard ...
+[00:00:24.945] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:26.577] Browser WARN    Image with src "/dashboard-viajes.png" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:00:26.577] Browser WARN    Image with src "/dashboard-viajes-2.png" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:00:26.577] Browser LOG     [CLIENT_DEBUG] fetchTrips called with: cmkzzxsle0000lmw0dm3bn9ym
+[00:00:26.771] Server  LOG     [API_DEBUG] GET /api/trips Request: {}
+[00:00:27.418] Browser WARN    webgl backend was already registered. Reusing existing backend factory.
+[00:00:27.418] Browser WARN    cpu backend was already registered. Reusing existing backend factory.
+[00:00:27.418] Browser WARN    Platform browser has already been set. Overwriting the platform with [object Object].
+[00:00:28.915] Server  ERROR   Fetch trips error: PrismaClientKnownRequestError: 
+Invalid `__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$prisma$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["prisma"].trip.findMany()` invocation in
+C:\Users\Asus\OneDrive\Desktop\viajando-con-ia-web\.next\dev\server\chunks\[root-of-the-server]__db679c0d._.js:85:163
+
+  82         status: 400
+  83     });
+  84 }
+→ 85 const trips = await __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$prisma$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["prisma"].trip.findMany(
+Inconsistent column data: Could not convert value "2026-01-28" of the field `startDate` to type `DateTime`.
+[00:00:29.417] Browser ERROR   {}
+[00:02:04.481] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:04.962] Server  LOG     [API_DEBUG] GET /api/trips Request: {}
+[00:02:05.076] Browser WARN    Image with src "/dashboard-viajes.png" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:02:05.076] Browser WARN    Image with src "/dashboard-viajes-2.png" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:02:05.076] Browser LOG     [CLIENT_DEBUG] fetchTrips called with: cmkzzxsle0000lmw0dm3bn9ym
+[00:02:05.561] Server  ERROR   Fetch trips error: PrismaClientKnownRequestError: 
+Invalid `__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$prisma$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["prisma"].trip.findMany()` invocation in
+C:\Users\Asus\OneDrive\Desktop\viajando-con-ia-web\.next\dev\server\chunks\[root-of-the-server]__db679c0d._.js:85:163
+
+  82         status: 400
+  83     });
+  84 }
+→ 85 const trips = await __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$prisma$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["prisma"].trip.findMany(
+Inconsistent column data: Could not convert value "2026-01-28" of the field `startDate` to type `DateTime`.
+[00:02:05.669] Browser ERROR   {}
+[00:02:05.980] Browser WARN    webgl backend was already registered. Reusing existing backend factory.
+[00:02:05.980] Browser WARN    cpu backend was already registered. Reusing existing backend factory.
+[00:02:05.980] Browser WARN    Platform browser has already been set. Overwriting the platform with [object Object].
+[00:02:57.780] Server  LOG     ✓ Compiled in 86ms
+[00:02:58.439] Server  LOG     [API_DEBUG] GET /api/trips Request: {}
+[00:02:59.041] Server  ERROR   Fetch trips error: PrismaClientKnownRequestError: 
+Invalid `__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$prisma$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["prisma"].trip.findMany()` invocation in
+C:\Users\Asus\OneDrive\Desktop\viajando-con-ia-web\.next\dev\server\chunks\[root-of-the-server]__db679c0d._.js:85:163
+
+  82         status: 400
+  83     });
+  84 }
+→ 85 const trips = await __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$prisma$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["prisma"].trip.findMany(
+Inconsistent column data: Could not convert value "2026-01-28" of the field `startDate` to type `DateTime`.
+[00:02:59.413] Browser LOG     [CLIENT_DEBUG] fetchTrips called with: cmkzzxsle0000lmw0dm3bn9ym
+[00:02:59.413] Browser ERROR   {}
+[00:03:29.953] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:30.433] Server  LOG     [API_DEBUG] GET /api/trips Request: {}
+[00:03:30.567] Browser WARN    Image with src "/dashboard-viajes.png" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:03:30.568] Browser WARN    Image with src "/dashboard-viajes-2.png" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:03:30.568] Browser LOG     [CLIENT_DEBUG] fetchTrips called with: cmkzzxsle0000lmw0dm3bn9ym
+[00:03:30.834] Server  ERROR   [API_ERROR] Fetch trips failed: {}
+[00:03:31.106] Browser WARN    webgl backend was already registered. Reusing existing backend factory.
+[00:03:31.106] Browser WARN    cpu backend was already registered. Reusing existing backend factory.
+[00:03:31.106] Browser WARN    Platform browser has already been set. Overwriting the platform with [object Object].
+[00:03:31.106] Browser ERROR   {}
+[00:06:58.039] Server  LOG     ✓ Compiled in 40ms
+[00:07:00.869] Server  LOG     ✓ Compiled in 28ms

@@ -3,7 +3,10 @@ import { Trip } from '@/types';
 export const tripService = {
     async getTrips(userId: string): Promise<Trip[]> {
         const res = await fetch(`/api/trips?userId=${userId}`);
-        if (!res.ok) throw new Error('Failed to fetch trips');
+        if (!res.ok) {
+            const errorData = await res.json().catch(() => ({}));
+            throw new Error(`Failed to fetch trips: ${res.status} ${res.statusText} - ${errorData.message || ''}`);
+        }
         const data = await res.json();
         return data.trips;
     },

@@ -11,7 +11,7 @@ export const WelcomeStep = ({ onComplete, onNext }: WelcomeStepProps) => (
         <h2 className="text-3xl font-bold text-center mb-6 text-white drop-shadow-md">Instrucciones para utilizar tu Panel de Viajes</h2>
         <div className="flex justify-start md:justify-center gap-6 mb-8 overflow-x-auto py-2 px-4 scrollbar-hide">
             {/* Image 1 */}
-            <div className="flex-1 min-w-[400px] relative group">
+            <div className="flex-1 min-w-[300px] max-w-[500px] relative group transition-transform hover:scale-[1.02]">
                 <div className="relative rounded-xl border border-white/10 max-w-6xl bg-black/50 shadow-2xl overflow-hidden">
                     <div className="bg-white/10 border-b border-white/5 px-4 py-2 flex gap-2">
                         <div className="w-3 h-3 rounded-full bg-red-400"></div>
@@ -32,7 +32,7 @@ export const WelcomeStep = ({ onComplete, onNext }: WelcomeStepProps) => (
             </div>
 
             {/* Image 2 */}
-            <div className="flex-1 min-w-[400px] relative group">
+            <div className="flex-1 min-w-[300px] max-w-[500px] relative group transition-transform hover:scale-[1.02]">
                 <div className="relative rounded-xl border border-white/10 bg-black/50 shadow-2xl overflow-hidden">
                     <div className="bg-white/10 border-b border-white/5 px-4 py-2 flex gap-2">
                         <div className="w-3 h-3 rounded-full bg-red-400"></div>
