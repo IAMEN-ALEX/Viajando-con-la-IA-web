@@ -583,3 +583,549 @@ Error parsing package.json file
   40 |     "@types/node": "^20",
 
 package.json is not parseable: invalid JSON: trailing comma at line 37 column 3
+[53:48:27.681] Browser ERROR   ./package.json:37:3
+Error parsing package.json file
+  35 |     "tailwind-merge": "^3.4.0",
+  36 |     "three": "^0.182.0",
+> 37 |   },
+     |   ^
+  38 |   "devDependencies": {
+  39 |     "@next/bundle-analyzer": "^16.1.4",
+  40 |     "@types/node": "^20",
+
+package.json is not parseable: invalid JSON: trailing comma at line 37 column 3
+[53:48:27.682] Browser ERROR   ./package.json:37:3
+Error parsing package.json file
+  35 |     "tailwind-merge": "^3.4.0",
+  36 |     "three": "^0.182.0",
+> 37 |   },
+     |   ^
+  38 |   "devDependencies": {
+  39 |     "@next/bundle-analyzer": "^16.1.4",
+  40 |     "@types/node": "^20",
+
+package.json is not parseable: invalid JSON: trailing comma at line 37 column 3
+[53:48:30.421] Browser ERROR   ./package.json:37:3
+Error parsing package.json file
+  35 |     "tailwind-merge": "^3.4.0",
+  36 |     "three": "^0.182.0",
+> 37 |   },
+     |   ^
+  38 |   "devDependencies": {
+  39 |     "@next/bundle-analyzer": "^16.1.4",
+  40 |     "@types/node": "^20",
+
+package.json is not parseable: invalid JSON: trailing comma at line 37 column 3
+[53:48:30.421] Browser ERROR   ./package.json:37:3
+Error parsing package.json file
+  35 |     "tailwind-merge": "^3.4.0",
+  36 |     "three": "^0.182.0",
+> 37 |   },
+     |   ^
+  38 |   "devDependencies": {
+  39 |     "@next/bundle-analyzer": "^16.1.4",
+  40 |     "@types/node": "^20",
+
+package.json is not parseable: invalid JSON: trailing comma at line 37 column 3
+[53:48:30.421] Browser ERROR   ./package.json:37:3
+Error parsing package.json file
+  35 |     "tailwind-merge": "^3.4.0",
+  36 |     "three": "^0.182.0",
+> 37 |   },
+     |   ^
+  38 |   "devDependencies": {
+  39 |     "@next/bundle-analyzer": "^16.1.4",
+  40 |     "@types/node": "^20",
+
+package.json is not parseable: invalid JSON: trailing comma at line 37 column 3
+[53:48:33.719] Browser ERROR   ./package.json:37:3
+Error parsing package.json file
+  35 |     "tailwind-merge": "^3.4.0",
+  36 |     "three": "^0.182.0",
+> 37 |   },
+     |   ^
+  38 |   "devDependencies": {
+  39 |     "@next/bundle-analyzer": "^16.1.4",
+  40 |     "@types/node": "^20",
+
+package.json is not parseable: invalid JSON: trailing comma at line 37 column 3
+[53:50:37.426] Browser ERROR   ./package.json:37:3
+Error parsing package.json file
+  35 |     "tailwind-merge": "^3.4.0",
+  36 |     "three": "^0.182.0",
+> 37 |   },
+     |   ^
+  38 |   "devDependencies": {
+  39 |     "@next/bundle-analyzer": "^16.1.4",
+  40 |     "@types/node": "^20",
+
+package.json is not parseable: invalid JSON: trailing comma at line 37 column 3
+[54:17:40.528] Server  ERROR   Error: Both middleware file "./src\middleware.ts" and proxy file "./src\proxy.ts" are detected. Please use "./src\proxy.ts" only. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[54:17:40.602] Server  ERROR   ⨯ "unhandledRejection:" Error: Both middleware file "./src\middleware.ts" and proxy file "./src\proxy.ts" are detected. Please use "./src\proxy.ts" only. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[54:17:40.660] Server  ERROR   ⨯ "unhandledRejection: " Error: Both middleware file "./src\middleware.ts" and proxy file "./src\proxy.ts" are detected. Please use "./src\proxy.ts" only. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[54:17:40.996] Server  ERROR   Error: Both middleware file "./src\middleware.ts" and proxy file "./src\proxy.ts" are detected. Please use "./src\proxy.ts" only. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[54:17:41.048] Server  ERROR   ⨯ "unhandledRejection:" Error: Both middleware file "./src\middleware.ts" and proxy file "./src\proxy.ts" are detected. Please use "./src\proxy.ts" only. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[54:17:41.148] Server  ERROR   ⨯ "unhandledRejection: " Error: Both middleware file "./src\middleware.ts" and proxy file "./src\proxy.ts" are detected. Please use "./src\proxy.ts" only. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[54:17:46.361] Browser ERROR   ./package.json:37:3
+Error parsing package.json file
+  35 |     "tailwind-merge": "^3.4.0",
+  36 |     "three": "^0.182.0",
+> 37 |   },
+     |   ^
+  38 |   "devDependencies": {
+  39 |     "@next/bundle-analyzer": "^16.1.4",
+  40 |     "@types/node": "^20",
+
+package.json is not parseable: invalid JSON: trailing comma at line 37 column 3
+[54:17:46.361] Browser ERROR   ./package.json:37:3
+Error parsing package.json file
+  35 |     "tailwind-merge": "^3.4.0",
+  36 |     "three": "^0.182.0",
+> 37 |   },
+     |   ^
+  38 |   "devDependencies": {
+  39 |     "@next/bundle-analyzer": "^16.1.4",
+  40 |     "@types/node": "^20",
+
+package.json is not parseable: invalid JSON: trailing comma at line 37 column 3
+[54:17:46.361] Browser ERROR   ./package.json:37:3
+Error parsing package.json file
+  35 |     "tailwind-merge": "^3.4.0",
+  36 |     "three": "^0.182.0",
+> 37 |   },
+     |   ^
+  38 |   "devDependencies": {
+  39 |     "@next/bundle-analyzer": "^16.1.4",
+  40 |     "@types/node": "^20",
+
+package.json is not parseable: invalid JSON: trailing comma at line 37 column 3
+[54:17:46.361] Browser ERROR   ./package.json:37:3
+Error parsing package.json file
+  35 |     "tailwind-merge": "^3.4.0",
+  36 |     "three": "^0.182.0",
+> 37 |   },
+     |   ^
+  38 |   "devDependencies": {
+  39 |     "@next/bundle-analyzer": "^16.1.4",
+  40 |     "@types/node": "^20",
+
+package.json is not parseable: invalid JSON: trailing comma at line 37 column 3
+[54:17:46.361] Browser ERROR   ./package.json:37:3
+Error parsing package.json file
+  35 |     "tailwind-merge": "^3.4.0",
+  36 |     "three": "^0.182.0",
+> 37 |   },
+     |   ^
+  38 |   "devDependencies": {
+  39 |     "@next/bundle-analyzer": "^16.1.4",
+  40 |     "@types/node": "^20",
+
+package.json is not parseable: invalid JSON: trailing comma at line 37 column 3
+[54:17:46.361] Browser ERROR   ./package.json:37:3
+Error parsing package.json file
+  35 |     "tailwind-merge": "^3.4.0",
+  36 |     "three": "^0.182.0",
+> 37 |   },
+     |   ^
+  38 |   "devDependencies": {
+  39 |     "@next/bundle-analyzer": "^16.1.4",
+  40 |     "@types/node": "^20",
+
+package.json is not parseable: invalid JSON: trailing comma at line 37 column 3
+[54:17:46.361] Browser ERROR   ./package.json:37:3
+Error parsing package.json file
+  35 |     "tailwind-merge": "^3.4.0",
+  36 |     "three": "^0.182.0",
+> 37 |   },
+     |   ^
+  38 |   "devDependencies": {
+  39 |     "@next/bundle-analyzer": "^16.1.4",
+  40 |     "@types/node": "^20",
+
+package.json is not parseable: invalid JSON: trailing comma at line 37 column 3
+[54:17:46.361] Browser ERROR   ./package.json:37:3
+Error parsing package.json file
+  35 |     "tailwind-merge": "^3.4.0",
+  36 |     "three": "^0.182.0",
+> 37 |   },
+     |   ^
+  38 |   "devDependencies": {
+  39 |     "@next/bundle-analyzer": "^16.1.4",
+  40 |     "@types/node": "^20",
+
+package.json is not parseable: invalid JSON: trailing comma at line 37 column 3
+[54:17:46.361] Browser ERROR   ./package.json:37:3
+Error parsing package.json file
+  35 |     "tailwind-merge": "^3.4.0",
+  36 |     "three": "^0.182.0",
+> 37 |   },
+     |   ^
+  38 |   "devDependencies": {
+  39 |     "@next/bundle-analyzer": "^16.1.4",
+  40 |     "@types/node": "^20",
+
+package.json is not parseable: invalid JSON: trailing comma at line 37 column 3
+[54:17:46.361] Browser ERROR   ./package.json:37:3
+Error parsing package.json file
+  35 |     "tailwind-merge": "^3.4.0",
+  36 |     "three": "^0.182.0",
+> 37 |   },
+     |   ^
+  38 |   "devDependencies": {
+  39 |     "@next/bundle-analyzer": "^16.1.4",
+  40 |     "@types/node": "^20",
+
+package.json is not parseable: invalid JSON: trailing comma at line 37 column 3
+[54:17:46.361] Browser ERROR   ./package.json:37:3
+Error parsing package.json file
+  35 |     "tailwind-merge": "^3.4.0",
+  36 |     "three": "^0.182.0",
+> 37 |   },
+     |   ^
+  38 |   "devDependencies": {
+  39 |     "@next/bundle-analyzer": "^16.1.4",
+  40 |     "@types/node": "^20",
+
+package.json is not parseable: invalid JSON: trailing comma at line 37 column 3
+[54:17:46.361] Browser ERROR   ./package.json:37:3
+Error parsing package.json file
+  35 |     "tailwind-merge": "^3.4.0",
+  36 |     "three": "^0.182.0",
+> 37 |   },
+     |   ^
+  38 |   "devDependencies": {
+  39 |     "@next/bundle-analyzer": "^16.1.4",
+  40 |     "@types/node": "^20",
+
+package.json is not parseable: invalid JSON: trailing comma at line 37 column 3
+[54:17:46.361] Browser ERROR   ./package.json:37:3
+Error parsing package.json file
+  35 |     "tailwind-merge": "^3.4.0",
+  36 |     "three": "^0.182.0",
+> 37 |   },
+     |   ^
+  38 |   "devDependencies": {
+  39 |     "@next/bundle-analyzer": "^16.1.4",
+  40 |     "@types/node": "^20",
+
+package.json is not parseable: invalid JSON: trailing comma at line 37 column 3
+[54:17:46.361] Browser ERROR   ./package.json:37:3
+Error parsing package.json file
+  35 |     "tailwind-merge": "^3.4.0",
+  36 |     "three": "^0.182.0",
+> 37 |   },
+     |   ^
+  38 |   "devDependencies": {
+  39 |     "@next/bundle-analyzer": "^16.1.4",
+  40 |     "@types/node": "^20",
+
+package.json is not parseable: invalid JSON: trailing comma at line 37 column 3
+[54:17:46.361] Browser ERROR   ./package.json:37:3
+Error parsing package.json file
+  35 |     "tailwind-merge": "^3.4.0",
+  36 |     "three": "^0.182.0",
+> 37 |   },
+     |   ^
+  38 |   "devDependencies": {
+  39 |     "@next/bundle-analyzer": "^16.1.4",
+  40 |     "@types/node": "^20",
+
+package.json is not parseable: invalid JSON: trailing comma at line 37 column 3
+[54:17:46.361] Browser ERROR   ./package.json:37:3
+Error parsing package.json file
+  35 |     "tailwind-merge": "^3.4.0",
+  36 |     "three": "^0.182.0",
+> 37 |   },
+     |   ^
+  38 |   "devDependencies": {
+  39 |     "@next/bundle-analyzer": "^16.1.4",
+  40 |     "@types/node": "^20",
+
+package.json is not parseable: invalid JSON: trailing comma at line 37 column 3
+[54:17:46.361] Browser ERROR   ./package.json:37:3
+Error parsing package.json file
+  35 |     "tailwind-merge": "^3.4.0",
+  36 |     "three": "^0.182.0",
+> 37 |   },
+     |   ^
+  38 |   "devDependencies": {
+  39 |     "@next/bundle-analyzer": "^16.1.4",
+  40 |     "@types/node": "^20",
+
+package.json is not parseable: invalid JSON: trailing comma at line 37 column 3
+[54:17:46.361] Browser ERROR   ./package.json:37:3
+Error parsing package.json file
+  35 |     "tailwind-merge": "^3.4.0",
+  36 |     "three": "^0.182.0",
+> 37 |   },
+     |   ^
+  38 |   "devDependencies": {
+  39 |     "@next/bundle-analyzer": "^16.1.4",
+  40 |     "@types/node": "^20",
+
+package.json is not parseable: invalid JSON: trailing comma at line 37 column 3
+[54:17:46.361] Browser ERROR   ./package.json:37:3
+Error parsing package.json file
+  35 |     "tailwind-merge": "^3.4.0",
+  36 |     "three": "^0.182.0",
+> 37 |   },
+     |   ^
+  38 |   "devDependencies": {
+  39 |     "@next/bundle-analyzer": "^16.1.4",
+  40 |     "@types/node": "^20",
+
+package.json is not parseable: invalid JSON: trailing comma at line 37 column 3
+[54:17:46.361] Browser ERROR   ./package.json:37:3
+Error parsing package.json file
+  35 |     "tailwind-merge": "^3.4.0",
+  36 |     "three": "^0.182.0",
+> 37 |   },
+     |   ^
+  38 |   "devDependencies": {
+  39 |     "@next/bundle-analyzer": "^16.1.4",
+  40 |     "@types/node": "^20",
+
+package.json is not parseable: invalid JSON: trailing comma at line 37 column 3
+[54:17:46.361] Browser ERROR   ./package.json:37:3
+Error parsing package.json file
+  35 |     "tailwind-merge": "^3.4.0",
+  36 |     "three": "^0.182.0",
+> 37 |   },
+     |   ^
+  38 |   "devDependencies": {
+  39 |     "@next/bundle-analyzer": "^16.1.4",
+  40 |     "@types/node": "^20",
+
+package.json is not parseable: invalid JSON: trailing comma at line 37 column 3
+[54:17:46.361] Browser ERROR   ./package.json:37:3
+Error parsing package.json file
+  35 |     "tailwind-merge": "^3.4.0",
+  36 |     "three": "^0.182.0",
+> 37 |   },
+     |   ^
+  38 |   "devDependencies": {
+  39 |     "@next/bundle-analyzer": "^16.1.4",
+  40 |     "@types/node": "^20",
+
+package.json is not parseable: invalid JSON: trailing comma at line 37 column 3
+[54:17:46.361] Browser ERROR   ./package.json:37:3
+Error parsing package.json file
+  35 |     "tailwind-merge": "^3.4.0",
+  36 |     "three": "^0.182.0",
+> 37 |   },
+     |   ^
+  38 |   "devDependencies": {
+  39 |     "@next/bundle-analyzer": "^16.1.4",
+  40 |     "@types/node": "^20",
+
+package.json is not parseable: invalid JSON: trailing comma at line 37 column 3
+[54:17:46.361] Browser ERROR   ./package.json:37:3
+Error parsing package.json file
+  35 |     "tailwind-merge": "^3.4.0",
+  36 |     "three": "^0.182.0",
+> 37 |   },
+     |   ^
+  38 |   "devDependencies": {
+  39 |     "@next/bundle-analyzer": "^16.1.4",
+  40 |     "@types/node": "^20",
+
+package.json is not parseable: invalid JSON: trailing comma at line 37 column 3
+[54:17:46.361] Browser ERROR   ./package.json:37:3
+Error parsing package.json file
+  35 |     "tailwind-merge": "^3.4.0",
+  36 |     "three": "^0.182.0",
+> 37 |   },
+     |   ^
+  38 |   "devDependencies": {
+  39 |     "@next/bundle-analyzer": "^16.1.4",
+  40 |     "@types/node": "^20",
+
+package.json is not parseable: invalid JSON: trailing comma at line 37 column 3
+[54:17:46.361] Browser ERROR   ./package.json:37:3
+Error parsing package.json file
+  35 |     "tailwind-merge": "^3.4.0",
+  36 |     "three": "^0.182.0",
+> 37 |   },
+     |   ^
+  38 |   "devDependencies": {
+  39 |     "@next/bundle-analyzer": "^16.1.4",
+  40 |     "@types/node": "^20",
+
+package.json is not parseable: invalid JSON: trailing comma at line 37 column 3
+[54:17:46.361] Browser ERROR   ./package.json:37:3
+Error parsing package.json file
+  35 |     "tailwind-merge": "^3.4.0",
+  36 |     "three": "^0.182.0",
+> 37 |   },
+     |   ^
+  38 |   "devDependencies": {
+  39 |     "@next/bundle-analyzer": "^16.1.4",
+  40 |     "@types/node": "^20",
+
+package.json is not parseable: invalid JSON: trailing comma at line 37 column 3
+[54:17:46.361] Browser ERROR   ./package.json:37:3
+Error parsing package.json file
+  35 |     "tailwind-merge": "^3.4.0",
+  36 |     "three": "^0.182.0",
+> 37 |   },
+     |   ^
+  38 |   "devDependencies": {
+  39 |     "@next/bundle-analyzer": "^16.1.4",
+  40 |     "@types/node": "^20",
+
+package.json is not parseable: invalid JSON: trailing comma at line 37 column 3
+[54:17:46.361] Browser ERROR   ./package.json:37:3
+Error parsing package.json file
+  35 |     "tailwind-merge": "^3.4.0",
+  36 |     "three": "^0.182.0",
+> 37 |   },
+     |   ^
+  38 |   "devDependencies": {
+  39 |     "@next/bundle-analyzer": "^16.1.4",
+  40 |     "@types/node": "^20",
+
+package.json is not parseable: invalid JSON: trailing comma at line 37 column 3
+[54:17:46.361] Browser ERROR   ./package.json:37:3
+Error parsing package.json file
+  35 |     "tailwind-merge": "^3.4.0",
+  36 |     "three": "^0.182.0",
+> 37 |   },
+     |   ^
+  38 |   "devDependencies": {
+  39 |     "@next/bundle-analyzer": "^16.1.4",
+  40 |     "@types/node": "^20",
+
+package.json is not parseable: invalid JSON: trailing comma at line 37 column 3
+[54:17:46.361] Browser ERROR   ./package.json:37:3
+Error parsing package.json file
+  35 |     "tailwind-merge": "^3.4.0",
+  36 |     "three": "^0.182.0",
+> 37 |   },
+     |   ^
+  38 |   "devDependencies": {
+  39 |     "@next/bundle-analyzer": "^16.1.4",
+  40 |     "@types/node": "^20",
+
+package.json is not parseable: invalid JSON: trailing comma at line 37 column 3
+[54:17:46.361] Browser ERROR   ./package.json:37:3
+Error parsing package.json file
+  35 |     "tailwind-merge": "^3.4.0",
+  36 |     "three": "^0.182.0",
+> 37 |   },
+     |   ^
+  38 |   "devDependencies": {
+  39 |     "@next/bundle-analyzer": "^16.1.4",
+  40 |     "@types/node": "^20",
+
+package.json is not parseable: invalid JSON: trailing comma at line 37 column 3
+[54:17:46.361] Browser ERROR   ./package.json:37:3
+Error parsing package.json file
+  35 |     "tailwind-merge": "^3.4.0",
+  36 |     "three": "^0.182.0",
+> 37 |   },
+     |   ^
+  38 |   "devDependencies": {
+  39 |     "@next/bundle-analyzer": "^16.1.4",
+  40 |     "@types/node": "^20",
+
+package.json is not parseable: invalid JSON: trailing comma at line 37 column 3
+[54:17:46.361] Browser ERROR   ./package.json:37:3
+Error parsing package.json file
+  35 |     "tailwind-merge": "^3.4.0",
+  36 |     "three": "^0.182.0",
+> 37 |   },
+     |   ^
+  38 |   "devDependencies": {
+  39 |     "@next/bundle-analyzer": "^16.1.4",
+  40 |     "@types/node": "^20",
+
+package.json is not parseable: invalid JSON: trailing comma at line 37 column 3
+[54:17:46.361] Browser ERROR   ./package.json:37:3
+Error parsing package.json file
+  35 |     "tailwind-merge": "^3.4.0",
+  36 |     "three": "^0.182.0",
+> 37 |   },
+     |   ^
+  38 |   "devDependencies": {
+  39 |     "@next/bundle-analyzer": "^16.1.4",
+  40 |     "@types/node": "^20",
+
+package.json is not parseable: invalid JSON: trailing comma at line 37 column 3
+[54:17:46.860] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[54:17:47.420] Browser ERROR   ./package.json:37:3
+Error parsing package.json file
+  35 |     "tailwind-merge": "^3.4.0",
+  36 |     "three": "^0.182.0",
+> 37 |   },
+     |   ^
+  38 |   "devDependencies": {
+  39 |     "@next/bundle-analyzer": "^16.1.4",
+  40 |     "@types/node": "^20",
+
+package.json is not parseable: invalid JSON: trailing comma at line 37 column 3
+[54:17:47.420] Browser ERROR   ./package.json:37:3
+Error parsing package.json file
+  35 |     "tailwind-merge": "^3.4.0",
+  36 |     "three": "^0.182.0",
+> 37 |   },
+     |   ^
+  38 |   "devDependencies": {
+  39 |     "@next/bundle-analyzer": "^16.1.4",
+  40 |     "@types/node": "^20",
+
+package.json is not parseable: invalid JSON: trailing comma at line 37 column 3
+[54:17:47.420] Browser ERROR   ./package.json:37:3
+Error parsing package.json file
+  35 |     "tailwind-merge": "^3.4.0",
+  36 |     "three": "^0.182.0",
+> 37 |   },
+     |   ^
+  38 |   "devDependencies": {
+  39 |     "@next/bundle-analyzer": "^16.1.4",
+  40 |     "@types/node": "^20",
+
+package.json is not parseable: invalid JSON: trailing comma at line 37 column 3
+[54:17:47.420] Browser ERROR   ./package.json:37:3
+Error parsing package.json file
+  35 |     "tailwind-merge": "^3.4.0",
+  36 |     "three": "^0.182.0",
+> 37 |   },
+     |   ^
+  38 |   "devDependencies": {
+  39 |     "@next/bundle-analyzer": "^16.1.4",
+  40 |     "@types/node": "^20",
+
+package.json is not parseable: invalid JSON: trailing comma at line 37 column 3
+[54:17:59.421] Browser ERROR   ./package.json:37:3
+Error parsing package.json file
+  35 |     "tailwind-merge": "^3.4.0",
+  36 |     "three": "^0.182.0",
+> 37 |   },
+     |   ^
+  38 |   "devDependencies": {
+  39 |     "@next/bundle-analyzer": "^16.1.4",
+  40 |     "@types/node": "^20",
+
+package.json is not parseable: invalid JSON: trailing comma at line 37 column 3
+[54:18:41.425] Browser ERROR   ./package.json:37:3
+Error parsing package.json file
+  35 |     "tailwind-merge": "^3.4.0",
+  36 |     "three": "^0.182.0",
+> 37 |   },
+     |   ^
+  38 |   "devDependencies": {
+  39 |     "@next/bundle-analyzer": "^16.1.4",
+  40 |     "@types/node": "^20",
+
+package.json is not parseable: invalid JSON: trailing comma at line 37 column 3
+[54:18:58.434] Browser ERROR   ./package.json:37:3
+Error parsing package.json file
+  35 |     "tailwind-merge": "^3.4.0",
+  36 |     "three": "^0.182.0",
+> 37 |   },
+     |   ^
+  38 |   "devDependencies": {
+  39 |     "@next/bundle-analyzer": "^16.1.4",
+  40 |     "@types/node": "^20",
+
+package.json is not parseable: invalid JSON: trailing comma at line 37 column 3
