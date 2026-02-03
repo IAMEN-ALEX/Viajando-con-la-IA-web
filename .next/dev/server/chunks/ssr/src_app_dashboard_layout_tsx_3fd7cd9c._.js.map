@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Asus/OneDrive/Desktop/viajando-con-ia-web/src/app/dashboard/layout.tsx"],"sourcesContent":["import { redirect } from \"next/navigation\";\r\nimport { cookies } from \"next/headers\";\r\n\r\nexport default async function DashboardLayout({\r\n    children,\r\n}: {\r\n    children: React.ReactNode;\r\n}) {\r\n    const cookieStore = await cookies();\r\n    const token = cookieStore.get(\"auth-token\");\r\n\r\n    // Server-Side Guard: Instant Redirect if no token\r\n    if (!token) {\r\n        redirect(\"/\");\r\n    }\r\n\r\n    return (\r\n        <>\r\n            {children}\r\n        </>\r\n    );\r\n}\r\n"],"names":[],"mappings":";;;;;AAAA;AAAA;AACA;;;;AAEe,eAAe,gBAAgB,EAC1C,QAAQ,EAGX;IACG,MAAM,cAAc,MAAM,IAAA,0IAAO;IACjC,MAAM,QAAQ,YAAY,GAAG,CAAC;IAE9B,kDAAkD;IAClD,IAAI,CAAC,OAAO;QACR,IAAA,iMAAQ,EAAC;IACb;IAEA,qBACI;kBACK;;AAGb"}}]
+}

@@ -1,0 +1,19 @@
+{
+  "[project]/node_modules/@splinetool/react-spline/dist/react-spline.js [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/node_modules/@splinetool/react-spline/dist/react-spline.js [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/node_modules_@splinetool_runtime_build_ceea10c2._.js",
+      "static/chunks/node_modules_@splinetool_runtime_build_runtime_5cafa62e.js",
+      "static/chunks/node_modules_fc5c44c2._.js",
+      "static/chunks/node_modules_@splinetool_react-spline_dist_react-spline_d6e79fca.js"
+    ]
+  },
+  "[project]/src/components/Iridescence.tsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/src/components/Iridescence.tsx [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/node_modules_ogl_src_d05ff7ef._.js",
+      "static/chunks/src_components_Iridescence_tsx_ddcffe89._.js",
+      "static/chunks/src_components_Iridescence_tsx_d8e4111c._.js"
+    ]
+  }
+}

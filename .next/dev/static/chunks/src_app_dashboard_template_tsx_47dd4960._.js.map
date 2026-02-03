@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Asus/OneDrive/Desktop/viajando-con-ia-web/src/app/dashboard/template.tsx"],"sourcesContent":["'use client';\r\n\r\nimport { motion } from 'framer-motion';\r\n\r\nexport default function Template({ children }: { children: React.ReactNode }) {\r\n    return (\r\n        <motion.div\r\n            initial={{ opacity: 0 }}\r\n            animate={{ opacity: 1 }}\r\n            exit={{ opacity: 0 }}\r\n            transition={{ duration: 0.15, ease: 'linear' }}\r\n        >\r\n            {children}\r\n        </motion.div>\r\n    );\r\n}\r\n"],"names":[],"mappings":";;;;;AAEA;AAFA;;;AAIe,SAAS,SAAS,EAAE,QAAQ,EAAiC;IACxE,qBACI,6LAAC,uMAAM,CAAC,GAAG;QACP,SAAS;YAAE,SAAS;QAAE;QACtB,SAAS;YAAE,SAAS;QAAE;QACtB,MAAM;YAAE,SAAS;QAAE;QACnB,YAAY;YAAE,UAAU;YAAM,MAAM;QAAS;kBAE5C;;;;;;AAGb;KAXwB"}}]
+}

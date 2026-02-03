@@ -1,0 +1,122 @@
+/* [project]/src/components/DestinationDropdown.module.css [app-client] (css) */
+.DestinationDropdown-module__Wa1cfW__trigger {
+  color: #fff;
+  -webkit-backdrop-filter: blur(10px);
+  cursor: pointer;
+  text-align: left;
+  background: #0000004d;
+  border: 1px solid #ffffff1a;
+  border-radius: 12px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 1.25rem;
+  font-size: .95rem;
+  transition: all .3s cubic-bezier(.4, 0, .2, 1);
+  display: flex;
+  box-shadow: inset 0 2px 4px #0003;
+}
+
+.DestinationDropdown-module__Wa1cfW__trigger:hover {
+  background-color: #00000059;
+  border-color: #6366f166;
+}
+
+.DestinationDropdown-module__Wa1cfW__trigger:focus {
+  background: #0006;
+  border-color: #6366f199;
+  outline: none;
+  box-shadow: 0 0 0 4px #6366f126, 0 0 30px #6366f14d, inset 0 2px 4px #0003;
+}
+
+.DestinationDropdown-module__Wa1cfW__triggerText {
+  color: #fffffff2;
+  flex: 1;
+}
+
+.DestinationDropdown-module__Wa1cfW__trigger:not(:has(.DestinationDropdown-module__Wa1cfW__triggerText:not(:empty))) .DestinationDropdown-module__Wa1cfW__triggerText {
+  color: #ffffff59;
+}
+
+.DestinationDropdown-module__Wa1cfW__triggerIcon {
+  color: #fff9;
+  width: 1.2em;
+  height: 1.2em;
+  transition: transform .3s;
+}
+
+.DestinationDropdown-module__Wa1cfW__triggerIconOpen {
+  transform: rotate(180deg);
+}
+
+.DestinationDropdown-module__Wa1cfW__dropdown {
+  z-index: 9999;
+  min-width: 200px;
+}
+
+.DestinationDropdown-module__Wa1cfW__dropdownContent {
+  -webkit-backdrop-filter: blur(30px);
+  background: #0a0a14f2;
+  border: 1px solid #ffffff1a;
+  border-radius: 12px;
+  max-height: 300px;
+  padding: .5rem;
+  overflow-y: auto;
+  box-shadow: 0 8px 32px #00000080, 0 0 60px #6366f11a, inset 0 1px #ffffff0d;
+}
+
+.DestinationDropdown-module__Wa1cfW__dropdownContent::-webkit-scrollbar {
+  width: 8px;
+}
+
+.DestinationDropdown-module__Wa1cfW__dropdownContent::-webkit-scrollbar-track {
+  background: #0003;
+  border-radius: 4px;
+}
+
+.DestinationDropdown-module__Wa1cfW__dropdownContent::-webkit-scrollbar-thumb {
+  background: #6366f180;
+  border-radius: 4px;
+}
+
+.DestinationDropdown-module__Wa1cfW__dropdownContent::-webkit-scrollbar-thumb:hover {
+  background: #6366f1b3;
+}
+
+.DestinationDropdown-module__Wa1cfW__option {
+  color: #ffffffe6;
+  cursor: pointer;
+  text-align: left;
+  background: none;
+  border: none;
+  border-radius: 8px;
+  align-items: center;
+  gap: .75rem;
+  width: 100%;
+  padding: .75rem 1rem;
+  font-size: .95rem;
+  transition: all .2s;
+  display: flex;
+}
+
+.DestinationDropdown-module__Wa1cfW__option:hover {
+  color: #fff;
+  background: #6366f133;
+}
+
+.DestinationDropdown-module__Wa1cfW__optionSelected {
+  color: #fff;
+  background: #6366f14d;
+  font-weight: 600;
+}
+
+.DestinationDropdown-module__Wa1cfW__optionEmoji {
+  flex-shrink: 0;
+  font-size: 1.2rem;
+}
+
+.DestinationDropdown-module__Wa1cfW__optionLabel {
+  flex: 1;
+}
+
+/*# sourceMappingURL=src_components_DestinationDropdown_module_css_bad6b30c._.single.css.map*/
